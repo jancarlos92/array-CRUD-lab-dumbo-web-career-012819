@@ -12,25 +12,31 @@ def add_element_to_end_of_array(array,element)
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  element = "arrays!"
+  create_an_array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
   
+  create_an_array.pop(element)
 end
 
 def remove_element_from_start_of_array(array)
   
+  create_an_array.shift(element)
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+  element = "arrays!"
+  create_an_array.push(element)
 end
 
 def retrieve_first_element_from_array(array)
-  
+  element = "arrays!"
+  create_an_array.push(element)
 end
 
 def retrieve_last_element_from_array(array)
-  
+  element = "arrays!"
+  create_an_array.push(element)
 end
